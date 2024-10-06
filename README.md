@@ -58,7 +58,7 @@ CREATE EXTERNAL TABLE spectrum_schema.sales_external (
 )
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
-LOCATION 's3://your-s3-bucket/sales_data/'
+LOCATION 's3://*****'
 TABLE PROPERTIES ('skip.header.line.count'='1');
 ```
 - Create Materialized View
